@@ -36,5 +36,5 @@ jobs:
         run: |
           sleep 5
           docker ps
-          curl -fsS http://localhost:8081 | grep "Atualizado via pipeline"
+          curl -fsS http://localhost:8080 | grep -q "Atualizado via pipeline"
 
