@@ -37,3 +37,4 @@ jobs:
           sleep 5
           docker ps
           curl -fsS http://localhost:8081 | grep "Atualizado via pipeline"
+
